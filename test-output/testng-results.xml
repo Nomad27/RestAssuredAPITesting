@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="11085" started-at="2020-01-19T16:11:50Z" finished-at="2020-01-19T16:12:01Z">
+    <groups>
+    </groups>
+    <test name="API Tests" duration-ms="11085" started-at="2020-01-19T16:11:50Z" finished-at="2020-01-19T16:12:01Z">
+      <class name="operations.GetRequest">
+        <test-method status="PASS" signature="basicAuthenticate(java.lang.String, java.lang.String)[pri:0, instance:operations.GetRequest@60611244]" name="basicAuthenticate" duration-ms="464" started-at="2020-01-19T16:11:57Z" data-provider="credentials" finished-at="2020-01-19T16:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicAuthenticate -->
+        <test-method status="PASS" signature="getDecodedValue()[pri:0, instance:operations.GetRequest@60611244]" name="getDecodedValue" duration-ms="282" started-at="2020-01-19T16:11:58Z" finished-at="2020-01-19T16:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDecodedValue -->
+        <test-method status="PASS" signature="getDetails()[pri:0, instance:operations.GetRequest@60611244]" name="getDetails" duration-ms="304" started-at="2020-01-19T16:11:58Z" finished-at="2020-01-19T16:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetails -->
+        <test-method status="PASS" signature="getEncoding()[pri:0, instance:operations.GetRequest@60611244]" name="getEncoding" duration-ms="250" started-at="2020-01-19T16:11:58Z" finished-at="2020-01-19T16:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEncoding -->
+        <test-method status="PASS" signature="getImage()[pri:0, instance:operations.GetRequest@60611244]" name="getImage" duration-ms="339" started-at="2020-01-19T16:11:59Z" finished-at="2020-01-19T16:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getImage -->
+        <test-method status="PASS" signature="getIp()[pri:0, instance:operations.GetRequest@60611244]" name="getIp" duration-ms="306" started-at="2020-01-19T16:11:59Z" finished-at="2020-01-19T16:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIp -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:operations.GetRequest@60611244]" name="getStatusCode" duration-ms="239" started-at="2020-01-19T16:11:59Z" finished-at="2020-01-19T16:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+      </class> <!-- operations.GetRequest -->
+      <class name="operations.PostRequest">
+        <test-method status="PASS" signature="postData()[pri:0, instance:operations.PostRequest@3745e5c6]" name="postData" duration-ms="497" started-at="2020-01-19T16:12:00Z" finished-at="2020-01-19T16:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method status="PASS" signature="postStatus()[pri:0, instance:operations.PostRequest@3745e5c6]" name="postStatus" duration-ms="246" started-at="2020-01-19T16:12:00Z" finished-at="2020-01-19T16:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postStatus -->
+      </class> <!-- operations.PostRequest -->
+      <class name="operations.DeleteRequest">
+        <test-method status="PASS" signature="delete()[pri:0, instance:operations.DeleteRequest@45dd4eda]" name="delete" duration-ms="6845" started-at="2020-01-19T16:11:50Z" finished-at="2020-01-19T16:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="deleteAnything()[pri:0, instance:operations.DeleteRequest@45dd4eda]" name="deleteAnything" duration-ms="372" started-at="2020-01-19T16:11:57Z" finished-at="2020-01-19T16:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAnything -->
+      </class> <!-- operations.DeleteRequest -->
+      <class name="operations.UpdateRequest">
+        <test-method status="PASS" signature="putDetails()[pri:0, instance:operations.UpdateRequest@5e4c8041]" name="putDetails" duration-ms="374" started-at="2020-01-19T16:12:00Z" finished-at="2020-01-19T16:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putDetails -->
+      </class> <!-- operations.UpdateRequest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
