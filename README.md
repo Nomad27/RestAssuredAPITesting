@@ -1,6 +1,5 @@
 # RestAssuredAPITesting
-
-We have to test the Rest APIs
+Rest APIs Testing
 
 # Project Structure
 The project follows the standard Maven structure, so all the tests go in the src/test/java folder.We have used the RestAssured Automation tool to automate the Rest APIs.For reporting we have used the Allure with Testng.
@@ -23,20 +22,20 @@ Pre-requisite - Eclipse,Java should be installed on the machine
                 
 # Project Configuration Steps 
 
-    1.Clone this repository CLONE
+               1.Clone this repository CLONE
 
-    2.Import project in Eclipse as a Maven Project
+               2.Import project in Eclipse as a Maven Project
 
-    3.Run clean install target of Maven project
+               3.Run clean install target of Maven project
 
-    4.Right click on 'testng.xml'
+               4.Right click on 'testng.xml'
 
-    5.Run as TestNG suite
+               5.Run as TestNG suite
 
-    6.Location of report (Refresh the project to find report folder "allure-results").Reports will be in Json format here.
+               6.Location of report (Refresh the project to find report folder "allure-results").Reports will be in Json format here.
   
-    7. Please open the windows command prompt and run the 
-    C:\Users\*\>allure serve *\RestAssuredAPITesting\allure-results (It will generate the report and you will see the test reports in        browser.
+               7. Please open the windows command prompt and run the 
+               C:\Users\*\>allure serve *\RestAssuredAPITesting\allure-results (It will generate the report and you will see the test                  reports in the browser).
   
                 
  Referneces: https://docs.qameta.io/allure/
