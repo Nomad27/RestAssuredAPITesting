@@ -1,0 +1,35 @@
+Task2 
+Question:
+What test design techniques would you use to test a feature which grants user access
+to certain resources depending on their age.For example: if a user is older than XX then
+access granted
+--------------------------------------------------------------------------------------------
+Answer:
+Here we can use the boundary value analysis technique to design the test cases.
+So we will make age group on the basis of age and will ensure that the permissions granted to groups are working as expected. If the age group will try to access the restricted resources that will give the "access denied" error message .Example: If we make age groups (18-30) ,(31-50), then we can test the boundaries of these two groups to check the changing behaviour of the application.
+--------------------------------------------------------------------------------------------
+Question:
+ Given two web services: A and B. Service A is calling service B and expects a response
+with HTTP code 200 (OK).
+Sometimes due to internal problems in service B, it responds with HTTP code 500
+(Internal server error).
+Your task is to test that service A handles this 500 response gracefully (doesn't crash and
+logs the error).
+How would you do it?
+---------------------------------------------------------------------------------------------
+Answer:
+Here the developer must handle exception of  500 error code in rest template of service B and return proper error messages so we can write the assert condition if we get this error messages form service B.
+For example: If exception handling of service B "Catching any unexpected errors and return some error messages in response". While we will write the test case for service A, we can handle this situation gracefully.
+
+--------------------------------------------------------------------------------------------
+Problem:
+The development team has a CI pipeline that runs at any time whenever a change is 
+made in Transfer-Service. However, the Account-Guard-Service is only available for 
+testing every day from 1:00am to 3:00am.
+--------------------------------------------------------------------------------------------
+Answer:
+
+Test Transfer-Service using a mock of Account-Guard-Service during the 
+normal CI phase and add a scheduled job that runs between 1:00 am to 3:00 am to
+test against the real Account-Guard-Service.
+
