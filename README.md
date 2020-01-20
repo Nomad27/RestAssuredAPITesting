@@ -6,13 +6,14 @@ The project follows the standard Maven structure, so all the tests go in the src
 
 Pre-requisite - Eclipse,Java should be installed on the machine
 
+
               - Download the Maven and Allure for Reporting
               
                 Download link for Allure, Please choose *.zip file for windows 
-                https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/
+                (https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.10.0/)
                 
                 Download link for Maven
-                https://maven.apache.org/download.cgi
+               ( https://maven.apache.org/download.cgi)
                 
               - Extract the Maven and Allure into the C Folder (ex: C:\apache-maven-3.6.3, C:\allure-2.10.0)
                 Add "C:\allure-2.10.0\bin", "C:\apache-maven-3.6.3\bin" to system PATH.
@@ -22,7 +23,7 @@ Pre-requisite - Eclipse,Java should be installed on the machine
                 
 # Project Configuration Steps 
 
-               1.Clone this repository CLONE
+               1.Clone this repository [CLONE] (https://github.com/Nomad27/RestAssuredAPITesting.git)
 
                2.Import project in Eclipse as a Maven Project
 
